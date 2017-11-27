@@ -1,0 +1,20 @@
+{
+    "name": "leogumbo/m2-composer-patcher",
+    "description": "Apply Magento 2 patches using composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Gumbo",
+            "email": "Loxzibit@yahoo.co.uk"
+        }
+    ],
+    "require": {
+      "symfony/console": "2.6.*",
+      "symfony/process": "*"
+    },
+    "autoload": {
+        "psr-0": {
+          "Inviqa\\": "src/"
+        }
+    }
+}
